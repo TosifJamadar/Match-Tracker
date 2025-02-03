@@ -19,10 +19,10 @@ export default function Home() {
 
 
   return (
-    <div className="bg-gradient-to-b from-red-100 to-red-200 min-h-screen flex flex-col items-center justify-center p-10">
+    <div className="bg-red-300 min-h-screen flex flex-col items-center justify-center p-10">
     <h1 className="text-center py-6 md:py-12 text-4xl md:text-6xl font-extrabold text-red-600 bg-white shadow-lg border-4 border-red-400 border-solid rounded-xl px-8 transition duration-300 hover:scale-105">🏆 Match Tracker ⚽</h1>
 
-    <div className="flex flex-col md:flex-row justify-center items-center md:justify-around md:mt-10 mt-5 w-[800px] bg-gray-100 p-5">
+    <div className="flex flex-col md:flex-row justify-center items-center md:justify-around md:mt-10 mt-5 w-[800px] bg-gray-100 rounded-lg p-5">
       <Matchcard
         score={scoreA}
         teamName="Team A"
